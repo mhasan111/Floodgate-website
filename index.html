@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<title>Floodgate</title>
+        <script src="https://kit.fontawesome.com/d468b5caeb.js" crossorigin="anonymous"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+
+		<meta name="theme-color" content="#056EB9" />
+		<meta name="msapplication-navbutton-color" content="#056EB9" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
+
+
+		<!-- Critical styles
+		================================================== -->
+		<link rel="stylesheet" href="css/critical.min.css" type="text/css">
+
+		<!-- Load google font
+		================================================== -->
+		<script type="text/javascript">
+			WebFontConfig = {
+				google: { families: [ 'Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700'] }
+			};
+			(function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+		</script>
+
+		<!-- Load other scripts
+		================================================== -->
+		<script type="text/javascript">
+			var _html = document.documentElement,
+				isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+			_html.className = _html.className.replace("no-js","js");
+			_html.classList.add( isTouch ? "touch" : "no-touch");
+		</script>
+		<script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<!-- start header -->
+			<header id="top-bar" class="top-bar top-bar--dark" data-nav-anchor="true">
+				<div class="top-bar__inner">
+					<div class="container">
+						<div class="row align-items-center no-gutters">
+
+							<a class="top-bar__logo site-logo" href="index.html">
+								<img class="img-fluid" src="img/site_logo/logo_2.png" width="159" height="45" alt="demo" />
+							</a>
+
+							<a id="top-bar__navigation-toggler" class="top-bar__navigation-toggler" href="javascript:void(0);">
+								<span></span>
+							</a>
+
+							<div class="top-bar__collapse">
+								<nav id="top-bar__navigation " class="top-bar__navigation" role="navigation">
+									<ul class="m-auto text-white">
+										<li>
+											<a class="nav-link active" href="#start-screen">Home</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="#services">About us</a>
+										</li>
+										<li>
+											<a class="nav-link" href="#services">Services</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="#blog">Blog</a>
+										</li>
+
+										<li class="has-submenu">
+											<a class="nav-link" href="javascript:void(0);">Pages</a>
+
+											<ul class="submenu">
+												<li class="has-submenu">
+													<a href="javascript:void(0)">UI Kit</a>
+
+													<ul class="submenu">
+														<li><a href="headers.html">Headers</a></li>
+														<li><a href="footers.html">Footers</a></li>
+														<li><a href="about_us.html">About</a></li>
+														<li><a href="blogs.html">Blogs</a></li>
+														<li><a href="services.html">Services</a></li>
+														<li><a href="video.html">Video</a></li>
+														<li><a href="features.html">Features</a></li>
+														<li><a href="projects.html">Projects</a></li>
+														<li><a href="pricing_tables.html">Pricing Tables</a></li>
+														<li><a href="how_it_works.html">How it Works</a></li>
+														<li><a href="infoblock.html">Info Block</a></li>
+														<li><a href="testimonials.html">Teatimonials</a></li>
+														<li><a href="team.html">Team</a></li>
+														<li><a href="faq.html">FAQ</a></li>
+														<li><a href="subscribe.html">Subscribe</a></li>
+														<li><a href="get_in_touch.html">Get in Touch</a></li>
+													</ul>
+												</li>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="blog_details.html">Blog Details</a></li>
+												<li><a href="sign_in.html">Sign In</a></li>
+												<li><a href="sign_up.html">Sign Up</a></li>
+												<li><a href="typography.html">Typography</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+								<div id="top-bar__action" class="top-bar__action">
+									<div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+										<div class="top-bar__choose-lang js-choose-lang">
+										</div>
+
+										<div class="top-bar__auth-btns">
+
+											<a class="custom-btn custom-btn--medium custom-btn--style-3" href="#get_in_touch">BOOK A STRATEGY</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- end header -->
+
+			<!-- start side menu -->
+			<div id="side-menu" class="side-menu  d-none">
+				<span class="side-menu__button-close  js-side-menu-close"></span>
+
+				<div class="side-menu__inner">
+					<div>
+						<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_1.png" width="159" height="45" alt="demo" />
+					</div>
+
+					<ul class="side-menu__menu">
+						<li class="active"><a href="#">Documents</a></li>
+						<li><a href="#">Aditional Info</a></li>
+						<li><a href="#">Application</a></li>
+						<li><a href="#">Useful Link</a></li>
+					</ul>
+
+					<address class="side-menu__address">
+						113 Fulton Street, Suite 721
+						New York, NY 10010 <br>
+						<a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a> <br>
+						<a href="#">+88 (0) 101 0000 000</a>
+
+						<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+							<ul class="d-flex flex-row flex-wrap align-items-center">
+								<li><a class="f" href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a class="t" href="#"><i class="fab fa-twitter"></i></i></a></li>
+								<li><a class="y" href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a class="i" href="#"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</address>
+
+					<div>
+						<a class="custom-btn custom-btn--medium custom-btn--style-5" href="#">Purchase</a>
+					</div>
+				</div>
+			</div>
+			<!-- end side menu -->
+
+			<!-- start start screen -->
+			<div id="start-screen" class="start-screen start-screen--full-height start-screen--style-1">
+				<div class="start-screen__bg-container">
+					<div class="start-screen__bg" style="background-image: url();background-position: center bottom;"></div>
+				</div>
+
+				<div class="start-screen__shapes  d-none d-lg-block">
+					<img class="img-shape d-none d-xl-block" src="#" alt="" />
+
+					<img class="img-shape" src="img/start-screen_img/shape_2.png" alt="demo" />
+				</div>
+
+				<div class="start-screen__content-container">
+					<div class="start-screen__content__item align-items-center">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-md-10 col-lg-6 text-white">
+									
+									<h1 style="color:#fff;"><span>SEO STRATEGY MELBOURNE</span></h1>
+
+									<p>
+										We’re here to help you fully reimagine your online approach and strategy and send you coasting to the top of Melbourne’s search results. Floodgate has a team that specializes in SEO for Melbourne markets, regardless of the service industry you’re working in. Your business deserves the skilled touch of Australian growth experts who believe in supporting other Australian businesses. 
+
+									</p>
+
+									<div class="spacer py-2 py-sm-4"></div>
+
+									<div class="d-sm-table">
+										<div class="d-sm-table-cell  pb-5 pb-sm-0 pr-sm-8 pr-md-10">
+											<a class="custom-btn custom-btn--big custom-btn--style-1" href="#">GET YOUR FREE SEO STRATEGY</a>
+										</div>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end start screen -->
+
+			<!-- start main -->
+			<main role="main">
+				<!-- Common styles
+				================================================== -->
+				<link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+				<!-- Load lazyLoad scripts
+				================================================== -->
+				<script>
+					(function(w, d){
+						var m = d.getElementsByTagName('main')[0],
+							s = d.createElement("script"),
+							v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+							o = {
+								elements_selector: ".lazy",
+								threshold: 500,
+								callback_enter: function (element) {
+
+								},
+								callback_load: function (element) {
+
+								},
+								callback_set: function (element) {
+
+									oTimeout = setTimeout(function ()
+									{
+										clearTimeout(oTimeout);
+
+										AOS.refresh();
+									}, 1000);
+								},
+								callback_error: function(element) {
+									element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+								}
+							};
+						s.type = 'text/javascript';
+						s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+						s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+						m.appendChild(s);
+						// m.insertBefore(s, m.firstChild);
+						w.lazyLoadOptions = o;
+					}(window, document));
+				</script>
+
+				<!-- start section -->
+				<section id="about" class="section section--no-pb">
+					<div class="container">
+						<div class="row flex-md-row-reverse justify-content-sm-center align-items-md-center">
+							<div class="col-12 col-md-6">
+								<div class="section-heading">
+									<h6 class="__subtitle">About us</h6>
+
+									<h2 class="__title">WHO WE ARE?</h2>
+								</div>
+
+								<div class="spacer py-4"></div>
+
+								<div>
+									<p>
+										<strong style="color: #555">Floodgate Digital is a business that helps your business find more business with a unique online strategy. </strong><br>
+										We’re an Australian owned digital growth agency that can give you the keys to open the gates to a flow of high-quality leads, improved sales and turnover and a stronger, larger customer base. This company is an extension of the work we’ve been doing in Australia for years: connecting reliable, qualified tradesmen with the people looking for them to help. Now that you’re this far on the page, we have great news for you!..
+									</p>
+
+									<p class="mt-9">
+										<a class="custom-btn custom-btn--medium custom-btn--style-2" href="#">More About</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="spacer py-4 d-md-none"></div>
+
+							<div class="col-12 col-md-6  text-center text-md-left about_img">
+
+								<figure class="image-container js-tilt" data-tilt-speed="600" data-tilt-max="15" data-tilt-perspective="700">
+									<img class="img-fluid lazy" width="381" height="424" src="img/blank.gif" data-src="img/img_1.png" data-srcset="img/img_1.png 1x, img/img_1@2x.png 2x" alt="demo" />
+								</figure>
+
+							</div>
+						</div>
+
+						<div class="spacer py-9"></div>
+
+						<div class="row">
+							<div class="col-12">
+
+								<!-- start brands list -->
+								<div class="brands-list">
+									<div class="__inner">
+										<div class="row justify-content-sm-around align-items-center">
+											<!-- start item -->
+											<div class="col-6 col-sm-auto">
+												<div class="__item">
+													<figure class="__image">
+														<img class="img-fluid lazy" src="img/blank.gif" data-src="img/brands_img/facebook.png" width="126" height="64" alt="demo" />
+													</figure>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-6 col-sm-auto">
+												<div class="__item">
+													<figure class="__image ins_ta">
+														<img class="img-fluid lazy" src="img/blank.gif" data-src="img/brands_img/insta.png" width="100" height="89" alt="demo" />
+													</figure>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-6 col-sm-auto">
+												<div class="__item">
+													<figure class="__image">
+														<img class="img-fluid lazy" src="img/blank.gif" data-src="img/brands_img/google.png" width="127" height="60" alt="demo" />
+													</figure>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-6 col-sm-auto">
+												<div class="__item">
+													<figure class="__image">
+														<img class="img-fluid lazy" src="img/blank.gif" data-src="img/brands_img/pinterest.png" width="132" height="47" alt="demo" />
+													</figure>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-6 col-sm-auto">
+												<div class="__item">
+													<figure class="__image">
+														<img class="img-fluid lazy" src="img/blank.gif" data-src="img/brands_img/Twitter-Logo-11.png" width="120" height="78" alt="demo" />
+													</figure>
+												</div>
+											</div>
+											<!-- end item -->
+										</div>
+									</div>
+								</div>
+								<!-- end brands list -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				<!-- start section -->
+				<section id="servicess" class="section">
+					<div class="container">
+						<div class="section-heading section-heading--center">
+							<h6 class="__subtitle text-white">our services</h6>
+
+							<h2 class="__title text-white">What We <span>can do for you</span></h2>
+						</div>
+
+						<div class="spacer py-6"></div>
+
+						<div class="row">
+							<div class="col-12">
+
+								<!-- start services -->
+								<div class="services services--s6">
+									<div class="__inner">
+										<div class="row">
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-xl-3 d-sm-flex">
+												<div class="__item __item--rounded __item--shadow js-tilt" data-tilt-speed="600" data-tilt-max="22" data-tilt-perspective="800">
+													<div class="mb-5">
+														<img src="img/service_icon/SEO.png" alt="">
+													</div>
+
+													<h4 class="__title"><a href="#">SEO</a></h4>
+
+													<p>
+														Get your business on the first page of Google and dominate search. We guarantee first page results*
+													</p>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-xl-3 d-sm-flex">
+												<div class="__item __item--rounded __item--shadow js-tilt" data-tilt-speed="600" data-tilt-max="22" data-tilt-perspective="800">
+													<div class="mb-5">
+														<img src="img/service_icon/Ads.png" alt="">
+													</div>
+
+													<h4 class="__title">Google Ads</h4>
+
+													<p>
+														Instantly get to the top Google and start generating leads and sales today. All without costing you and arm and a leg!
+													</p>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-xl-3 d-sm-flex">
+												<div class="__item __item--rounded __item--shadow js-tilt" data-tilt-speed="600" data-tilt-max="22" data-tilt-perspective="800">
+													<div class="mb-5">
+														<img src="img/service_icon/social.png" alt="">
+													</div>
+
+													<h4 class="__title">Social Media</h4>
+
+													<p>
+														Get your business seen & heard where people’s attention is. Build a reputation, keep in touch and stay front & centre!
+													</p>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-xl-3 d-sm-flex">
+												<div class="__item __item--rounded __item--shadow js-tilt" data-tilt-speed="600" data-tilt-max="22" data-tilt-perspective="800">
+													<div class="mb-5">
+														<img src="img/service_icon/web.png" alt="">
+													</div>
+
+													<h4 class="__title">Web Design</h4>
+
+													<p>
+														We build and maintain high quality, high converting, well oiled money making machines that stand the test of time.
+													</p>
+												</div>
+											</div>
+											<!-- end item -->
+										</div>
+									</div>
+								</div>
+								<!-- end services -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				
+
+				<!-- start section -->
+				<section id="features" class="section section--no-pt">
+					<div class="container">
+						<div class="row align-items-md-center">
+							<div class="col-12 col-lg-6">
+								<div class="section-heading">
+
+									<h2 style="padding-top: 50px;" class="__title ">We’re here to help you change the tide!<br></h2>
+								</div>
+
+								<div class="spacer py-4"></div>
+
+								<div>
+									<p>
+										<strong style="color: #555">Are you having a hard time finding customers in Melbourne from your website? </strong><br>
+										Do you want to increase the impact of your online footprint? You’ve seen your competitors find success online but why can’t you? The answers might be simple, and we can find them for you. Not only that, but we will also give you the tools to get a steady flow of traffic through to you. Our motto and solid guarantee is this: WE’LL GET YOU ON THE FIRST PAGE OF RESULTS
+									</p>
+
+								
+
+									<p class="mt-9">
+										<a class="custom-btn custom-btn--medium custom-btn--style-2" href="#">Read More</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="spacer py-4 d-lg-none"></div>
+
+							<div class="col-12 col-lg-6  text-center text-lg-right">
+
+								<figure class="image-container js-tilt" data-tilt-speed="600" data-tilt-max="15" data-tilt-perspective="700">
+									<img class="img-fluid lazy" width="520" height="507" src="img/blank.gif" data-src="img/img_4.png" alt="demo" />
+								</figure>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				<!-- start section -->
+				<section class="section section--no-pt">
+					<div class="container">
+						<div class="row flex-lg-row-reverse align-items-lg-center">
+							<div class="col-12 col-lg-6">
+								<div class="section-heading">
+
+									<h2 class="__title">Industry proven profit-pumping techniques…</h2>
+								</div>
+
+								<div class="spacer py-4"></div>
+
+								<div>
+									<p>
+										Melbourne is one of Australia’s most competitive markets for service-based businesses. We’ve found that many of them aren’t harnessing the power of SEO and online traffic to their fullest potential. It’s difficult to compete for one of the top spots on the first search results page but we WILL get you there. Floodgate calls itself a growth agency for a reason because we specialize in getting you noticed on Melbourne databases. Our research strategies are heavily researched and specifically customized to find you customers, but we also make sure that they’re the right ones! Watch your company grow right before your eyes and save the money you spend on targeted ad content that gives you no results...
+									</p>
+
+									<!-- start counter -->
+									<div class="counter counter--s2">
+										<div class="__inner">
+											
+										</div>
+									</div>
+									<!-- end counter -->
+
+									<p class="mt-9">
+										<a class="custom-btn custom-btn--medium custom-btn--style-2" href="#">Read More</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="spacer py-4 d-lg-none"></div>
+
+							<div class="col-12 col-lg-6  text-center text-lg-left">
+
+								<figure class="image-container js-tilt" data-tilt-speed="600" data-tilt-max="15" data-tilt-perspective="700">
+									<img class="img-fluid lazy" width="547" height="469" src="img/blank.gif" data-src="img/img_5.png" alt="demo" />
+								</figure>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				<!-- start section -->
+				<section id="infoblock" class="section section--bg-img jarallax" data-speed="0.3" data-img-position="50% 50%" style="background-image: url(img/base_bg.jpg);">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- start info block -->
+								<div class="info-block info-block--s1">
+									<div class="row align-items-md-center">
+										<div class="col-12 col-md-6">
+											<div class="section-heading section-heading--white">
+												<h6 class="__subtitle"></h6>
+
+												<h2 class="__title"> <span>Get a FREE SEO strategy session valued at $750.</span></h2>
+											</div>
+
+											<div class="spacer py-4"></div>
+
+											<div>
+												<p>
+													<a class="custom-btn custom-btn--medium custom-btn--style-4" href="#">&nbsp;&nbsp;GET MY FREE AUDIT
+														&nbsp;&nbsp;</a>
+												</p>
+											</div>
+										</div>
+
+										<div class="spacer py-4 d-md-none"></div>
+
+										<div class="col-12 col-md-6  text-center">
+											<figure class="image-container">
+												<img class="img-fluid lazy" width="409" height="440" src="img/blank.gif" data-src="img/img_14.png" data-srcset="img/img_14.png 1x, img/img_14@2x.png 2x" alt="demo" />
+											</figure>
+										</div>
+									</div>
+								</div>
+								<!-- end info block -->
+
+								<div class="spacer py-10 d-none d-md-block"></div>
+								<div class="spacer py-4 d-none d-lg-block"></div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="shape">
+						<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="200" viewBox="0 0 1680 200" preserveAspectRatio="none" style="min-height: 200px">
+							<path d="M0 3s561.937 57 842 55c286 0 484-18 839-58v450H-2z" style="mix-blend-mode:screen" fill="#fff" fill-rule="evenodd"/>
+						</svg>
+					</div>
+				</section>
+				<!-- end section -->
+
+				
+
+				<!-- start section -->
+				<section class="section section--no-pt">
+					<div class="container">
+						<div class="row flex-lg-row-reverse align-items-lg-center">
+							<div class="col-12 col-lg-6">
+								<div class="section-heading">
+
+									<h2 class="__title">Our company’s head of growth, knows about service-based business</h2>
+								</div>
+
+								<div class="spacer py-4"></div>
+
+								<div>
+									<p>
+										Floodgate Digital was founded by Jacob Banks and he is a man with ten years of experience in celebrating, growing and marketing Melbourne based businesses. He is also the founder of Service.com.au which has been around for many, many years. This leading digital trade and services marketplace attracts over 100,000 visitors and sends 1 million notifications to its partner network every month. He has direct knowledge in attracting profits for over 35,000 businesses across Australia, so he knows exactly what tradesmen in Melbourne need. He also knows that they need solid strategies to create that profit growth. He’s got a few secrets up his sleeve and he is eager to share them with you!
+									</p>
+
+									<!-- start counter -->
+									<div class="counter counter--s2">
+										<div class="__inner">
+											
+										</div>
+									</div>
+									<!-- end counter -->
+
+									<p class="mt-9">
+										<a class="custom-btn custom-btn--medium custom-btn--style-2" href="#">Read More</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="spacer py-4 d-lg-none"></div>
+
+							<div class="col-12 col-lg-6  text-center text-lg-left">
+
+								<figure class="image-container js-tilt" data-tilt-speed="600" data-tilt-max="15" data-tilt-perspective="700">
+									<img class="img-fluid lazy" width="547" height="469" src="img/blank.gif" data-src="img/img_12.png" alt="demo" />
+								</figure>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				<!-- start section -->
+				<section id="projects" class="section section--no-pt section--no-pb">
+					<div class="container">
+						<div class="section-heading section-heading--center">
+							<p style="color: #fff;">If you think that’s all it takes, you’re sadly mistaken. There are many more tools we can offer you so that we can drive more traffic towards you but also make sure it’s the RIGHT traffic. You can finally find the specific growth strategy with an award-winning marketing specialist today. Your SEO Melbourne strategy will go a little like this: </p>
+						</div>
+
+						<div class="spacer py-6"></div>
+
+						<div class="row">
+							<div class="col-12">
+
+								<!-- start projects -->
+								<div class="projects projects--s1">
+									<div class="__inner">
+										<div class="row justify-content-sm-center">
+											<!-- start item -->
+											<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex">
+												<div class="__item __item--shadow div_bg">
+													
+													<div class="__body  pt-6">
+
+														<p>
+															Well use the gained KNowledge to build a Strtegy to get you to page 1 results 
+														</p>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex">
+												<div class="__item __item--shadow div_bg">
+													
+													<div class="__body  pt-6">
+														
+
+														<p>
+															We put the  plan in action and track your digital Growth
+														</p>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+											<!-- start item -->
+											<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex">
+												<div class="__item __item--shadow div_bg">
+													
+
+													<div class="__body  pt-6">
+
+														<p>
+															Our melbourne SEO experts will spend some time studying your business and market
+														</p>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+										</div>
+									</div>
+								</div>
+								<!-- end projects -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				
+
+				
+	<!-- ========================================================== 
+                            tips part start 
+    ============================================================  -->
+  <!-- start section -->
+  <section id="services" class="section">
+	<div class="container">
+		<div class="section-heading section-heading--center">
+
+			<h2 class="__title">These are a few tips we can give you on the house to start <span></span></h2>
+		</div>
+
+		<div class="spacer py-6"></div>
+
+		<div class="row">
+			<div class="col-12">
+
+				<!-- start projects -->
+				<div class="projects projects--s1">
+					<div class="__inner">
+						<div class="row justify-content-sm-center">
+							<!-- start item -->
+							<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex mar_btm">
+								<div class="service_item">
+									<div class="service_img"><img src="images/service1.jpg" class="img-fluid w-100" alt=""></div>
+									<h5><i class="far fa-lightbulb"></i></h5>
+									<p>⦁	You need to focus on content that makes your company look knowledgeable, approachable and skilled in the service you’re offering. That doesn’t always necessarily mean super long opinion pieces but it could be an original, punchy guide article that’s titled “How to….” for the customer browsing your website. Guides are a useful way to interact with your customers because they get the added value of learning something while looking for a tradesmen. </p>
+								  </div>
+							</div>
+							<!-- end item -->
+							<!-- start item -->
+							<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex mar_btm">
+								<div class="service_item">
+									<div class="service_img"><img src="images/service1.jpg" class="img-fluid w-100" alt=""></div>
+									<h5><i class="far fa-lightbulb"></i></h5>
+									<p>⦁	Your page needs to be fast and secure. If people are using their phones to find a service or tradesman, they may be doing it in a rush or for the purpose of locating one quickly. Keep the content on your page simple because then it loads very quickly, and the user will be more inclined to scroll through it. Google mainly suggests websites that are credible. When your browser comes across those that aren't, it will send a small notification to the user as a warning before they can even open it. This is bad for business because research shows that they’ll immediately exit the page and look for another. This page is a Google developer’s guide on how to make sure that your website is secure.  </p>
+								  </div>
+							</div>
+							<!-- end item -->
+							<!-- start item -->
+							<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex mar_btm">
+								<div class="service_item">
+									<div class="service_img"><img src="images/service1.jpg" class="img-fluid w-100" alt=""></div>
+									<h5><i class="far fa-lightbulb"></i></h5>
+									<p>⦁	You need to keep updating your page for Google to detect that it is still active for use. Cross-link all your social media accounts and you can add new posts directly onto your website. Make sure all your contact, location and service information are updated regularly. Floodgate digital will include a unique content strategy when you reach out to us for your SEO needs.  </p>
+								  </div>
+							</div>
+							<!-- end item -->
+							<!-- start item -->
+							<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex">
+								<div class="service_item">
+									<div class="service_img"><img src="images/service1.jpg" class="img-fluid w-100" alt=""></div>
+									<h5><i class="far fa-lightbulb"></i></h5>
+									<p>⦁	You need to do some research on your competitors’ online presence and see where you can one-up them. It’s all good and well that you’re working on your own website but are you keeping up to standards with what everyone else in the same industry is doing? It might be the reason that your page falls off from page one results. We can help you with this one. Floodgate digital can do reverse engineering on any one of your competitors’ websites and tell you what they’re doing differently. Call us for a session to find out today!</p>
+								  </div>
+							</div>
+							<!-- end item -->
+							<!-- start item -->
+							<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-sm-flex">
+								<div class="service_item te">
+									<div class="service_img"><img src="images/service1.jpg" class="img-fluid w-100" alt=""></div>
+									<h5><i class="far fa-lightbulb"></i></h5>
+									<p>⦁	You need to do some research on your competitors’ online presence and see where you can one-up them. It’s all good and well that you’re working on your own website but are you keeping up to standards with what everyone else in the same industry is doing? It might be the reason that your page falls off from page one results. We can help you with this one. Floodgate digital can do reverse engineering on any one of your competitors’ websites and tell you what they’re doing differently. Call us for a session to find out today! </p>
+								  </div>
+							</div>
+							<!-- end item -->
+						</div>
+					</div>
+				</div>
+				<!-- end projects -->
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end section -->
+  <!-- ========================================================== 
+                            service part end 
+    ============================================================  -->
+				
+
+				<!-- start section -->
+				<section id="blog" class="section">
+					<div class="container">
+						<div class="section-heading">
+							<h6 class="__subtitle">Blog and News</h6>
+
+							<h2 class="__title">Floodgate <span>Blog</span></h2>
+						</div>
+
+						<div class="spacer py-6"></div>
+
+						<div class="row">
+							<div class="col-12">
+
+								<!-- start posts -->
+								<div class="posts posts--s1">
+									<div class="__inner">
+										<div class="row">
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+												<div class="__item __item--preview __item--rounded __item--shadow">
+													<div class="__header">
+														<figure class="__image __image--rounded">
+															<img class="lazy" src="img/blank.gif" data-src="img/posts_img/s1_1.jpg" alt="demo" />
+														</figure>
+													</div>
+
+													<div class="__body">
+														<div class="__content">
+															<div class="post-meta">
+																<div class="row justify-content-between align-items-center">
+																	<div class="col-auto">
+																		<span class="post-meta__item __author">by Simon Carter</span>
+																	</div>
+
+																	<div class="col-auto">
+																		<time class="post-meta__item __date-post">22 Aug</time>
+																	</div>
+																</div>
+															</div>
+
+															<h4 class="__title"><a href="#">Why does every business needs SEO </a></h4>
+														</div>
+													</div>
+
+													<div class="__footer">
+														<div class="tags-list">
+															<ul>
+																<li><a href="#" style="color: #01aef0;background-color: #f2f1ff">Marketing</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #ffefe8">SEO</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #e6faef">Strategy</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+												<div class="__item __item--preview __item--rounded __item--shadow">
+													<div class="__body">
+														<div class="__content">
+															<div class="post-meta">
+																<div class="row justify-content-between align-items-center">
+																	<div class="col-auto">
+																		<span class="post-meta__item __author">by Simon Carter</span>
+																	</div>
+
+																	<div class="col-auto">
+																		<time class="post-meta__item __date-post">22 Aug</time>
+																	</div>
+																</div>
+															</div>
+
+															<h4 class="__title"><a href="#">Do press releases work for SEO?</a></h4>
+
+															<p>
+																Do press releases work for SEO?QUICK SUMMARY Do press releases actually help you with SEO? Is it worth it to pay for them? This, like many other questions, does not…
+															</p>
+														</div>
+													</div>
+
+													<div class="__footer">
+														<div class="tags-list">
+															<ul>
+																<li><a href="#" style="color: #01aef0;background-color: #f2f1ff">Marketing</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #fcecef">Washington</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+												<div class="__item __item--preview __item--rounded __item--shadow">
+													<div class="__header">
+														<figure class="__image __image--rounded">
+															<img class="lazy" src="img/blank.gif" data-src="img/posts_img/s1_2.jpg" alt="demo" />
+														</figure>
+													</div>
+
+													<div class="__body">
+														<div class="__content">
+															<div class="post-meta">
+																<div class="row justify-content-between align-items-center">
+																	<div class="col-auto">
+																		<span class="post-meta__item __author">by Simon Carter</span>
+																	</div>
+
+																	<div class="col-auto">
+																		<time class="post-meta__item __date-post">22 Aug</time>
+																	</div>
+																</div>
+															</div>
+
+															<h4 class="__title"><a href="#">What is SEO?</a></h4>
+														</div>
+													</div>
+
+													<div class="__footer">
+														<div class="tags-list">
+															<ul>
+																<li><a href="#" style="color: #01aef0;background-color: #f2f1ff">Marketing</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #ffefe8">SEO</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #e6faef">Strategy</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+
+											<!-- start item -->
+											<div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+												<div class="__item __item--preview __item--rounded __item--shadow" style="background-image: url(img/posts_img/s1_5.jpg);">
+													<div class="__body  d-sm-flex align-items-sm-end">
+														<div class="__content">
+															<div class="post-meta text-white">
+																<div class="row justify-content-between align-items-center">
+																	<div class="col-auto">
+																		<span class="post-meta__item __author">by Simon Carter</span>
+																	</div>
+
+																	<div class="col-auto">
+																		<time class="post-meta__item __date-post">22 Aug</time>
+																	</div>
+																</div>
+															</div>
+
+															<h4 class="__title"><a class="text-white" href="#">How much does SEO Service Cost?</a></h4>
+														</div>
+													</div>
+
+													<div class="__footer">
+														<div class="tags-list">
+															<ul>
+																<li><a href="#" style="color: #01aef0;background-color: #f2f1ff">Marketing</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #ffefe8">SEO</a></li>
+																<li><a href="#" style="color: #01aef0;background-color: #e6faef">Strategy</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- end item -->
+										</div>
+									</div>
+								</div>
+								<!-- end posts -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				<!-- start section -->
+				<section id="get_in_touch" class="section section--bg-img jarallax" data-speed="0.3" data-img-position="50% 60%" style="background-image: url(img/base_bg.jpg);">
+					<div class="container">
+						<div class="section-heading section-heading--white section-heading--center">
+							<h2 class="__title">Get <span>in Touch</span></h2>
+
+							<p>
+								Redfin perch tripod fish zebra lionfish, nase slickhead! Jewelfish angler Devario gray reef 
+							</p>
+						</div>
+
+						<div class="spacer py-6"></div>
+
+						<div class="row justify-content-md-center">
+							<div class="col-12 col-md-10 col-lg-8 col-xl-6">
+
+								<form class="js-contact-form" action="#">
+									<div class="input-wrp">
+										<input class="textfield textfield--dark" placeholder="Full name" name="name" type="text" />
+									</div>
+
+									<div class="input-wrp">
+										<input class="textfield textfield--dark" placeholder="Email address" name="email" type="text" inputmode="email" x-inputmode="email" />
+									</div>
+
+									<label class="input-wrp">
+										<textarea class="textfield textfield--dark" placeholder="Message" name="message"></textarea>
+									</label>
+
+									<button class="custom-btn custom-btn--medium custom-btn--style-5 wide" type="submit" role="button">Send Message</button>
+
+									<div class="form__note"></div>
+								</form>
+
+								<!-- start company contacts -->
+								<div class="company-contacts company-contacts--s2  mt-12 text-white">
+									<div class="__inner">
+										<div class="__name h3">Have any <span>Questions?</span></div>
+
+										<div class="row no-gutters align-items-baseline">
+											<div class="col-12 col-md">
+												<span class="__phone">+3 8021 941 63 74</span>
+											</div>
+
+											<div class="col-12 col-md-auto">
+												<a href="mailto:info@Floodgate.co">info@Floodgate.co</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- end company contacts -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+			</main>
+			<!-- end main -->
+
+			<!-- start footer -->
+			<footer class="footer footer--s1 footer--color-light">
+				<div class="footer__line footer__line--first">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-4 col-lg-4 col-xl-3">
+								<div class="footer__item">
+									<a class="footer__logo site-logo" href="index.html">
+										<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_3.png" width="159" height="45" alt="demo" />
+									</a>
+								</div>
+
+								<div class="footer__item">
+									<span class="__copy">Copyrights 2019 © <a class="__dev" href="https://themeforest.net/user/artureanec" target="_blank">Floodgate</a></span>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-5 col-lg-3 offset-xl-1">
+								<div class="footer__item">
+									<address class="footer__address footer__address--s1">
+										113 Fulton Street, Suite 721
+										New&nbsp;York, NY 10010 <br>
+										<a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a> <br>
+										<a href="#">+88 (0) 101 0000 000</a>
+									</address>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-3 col-lg-2">
+								<div class="footer__item">
+									<nav id="footer__navigation" class="footer__navigation">
+										<ul>
+											<!-- li class="active" -->
+											<li><a href="#">Documents</a></li>
+											<li><a href="#">Aditional Info</a></li>
+											<li><a href="#">Application</a></li>
+											<li><a href="#">Useful Link</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<div class="footer__item">
+									<!-- start social buttons -->
+									<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+										<ul class="d-flex flex-row flex-wrap align-items-center">
+											<li><a class="f" href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a class="t" href="#"><i class="fab fa-twitter"></i></i></a></li>
+											<li><a class="y" href="#"><i class="fab fa-youtube"></i></a></li>
+											<li><a class="i" href="#"><i class="fab fa-instagram"></i></a></li>
+										</ul>
+									</div>
+									<!-- end social buttons -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__waves-container">
+					<svg class="footer__wave js-wave" data-wave='{"height": 40, "bones": 6, "amplitude": 70, "color": "rgba(78, 111, 136, 0.14)", "speed": 0.3}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+
+					<svg class="footer__wave js-wave" data-wave='{"height": 60, "bones": 5, "amplitude": 90, "color": "rgba(243, 248, 249, 0.02)", "speed": 0.35}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+				</div>
+			</footer>
+			<!-- end footer -->
+		</div>
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+		<script src="js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/main.min.js"></script>
+		
+	</body>
+</html>
